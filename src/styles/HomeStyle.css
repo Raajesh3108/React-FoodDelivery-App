@@ -1,0 +1,68 @@
+/* Home Hero 1.0 */
+.hero_section {
+    position: relative;
+    background: url("../assets/hero/hero-1.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 170px;
+    padding-bottom: 90px;
+}
+
+.hero_section .price_badge {
+    background: url("../assets/hero/price-badge-yellow.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    width: 180px;
+    height: 176px;
+    text-align: center;
+}
+
+.hero_section .badge_text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero_section .badge_text .h4_xs {
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.hero_section .badge_text .h3_lg {
+    font-size: 2.875rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.hero_section .hero_text h1 {
+    font-family: var(--lilita-font);
+    font-size: 7rem;
+    line-height: 1;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.hero_section .hero_text h2 {
+    font-family: var(--lilita-font);
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.hero_section .hero_text p {
+    padding: 0 5%;
+}
+
+/* Media Query Mobiles */
+
+@media (max-width: 767px) {
+    /* Home Hero 1.0 */
+    .hero_section .hero_text h1 {
+      font-size: 5.5rem;
+    }
+}
