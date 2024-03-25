@@ -12,10 +12,10 @@
     background: url("../assets/hero/price-badge-yellow.png") no-repeat center center;
     background-size: cover;
     position: absolute;
-    top: -20px;
-    right: 5px;
-    width: 180px;
-    height: 176px;
+    top: -40px;
+    right: 3px;
+    width: 150px;
+    height: 145px;
     text-align: center;
 }
 
