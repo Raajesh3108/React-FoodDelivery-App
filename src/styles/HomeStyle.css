@@ -58,7 +58,55 @@
     padding: 0 5%;
 }
 
+/* Home About 2.0 */
+.about_section {
+    padding-top: 80px;
+    padding-bottom: 300px;
+    background: url("../assets/about/about-1.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+  }
+  .about_section h2 {
+    font-size: 3.5rem;
+  }
+  .about_section p {
+    color: var(--grey);
+    padding: 20px 30px;
+    font-size: 19px;
+  }
+  .about_wrapper {
+    background: var(--yellow);
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  .about_box .about_icon img {
+    max-width: 25%;
+  }
+  .about_box h4 {
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0.5008px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .about_box p {
+    padding: 0 20px;
+  }
+  
 /* Media Query Mobiles */
+
+@media (max-width: 992px) {
+  /* Home About 2.0 */
+  .about_section h2 {
+    font-size: 2.5rem;
+  }
+  .about_section p {
+    padding: 20px 0;
+  }
+  .about_box p {
+    padding: 0;
+  }
+}
 
 @media (max-width: 767px) {
     /* Home Hero 1.0 */
