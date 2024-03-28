@@ -193,6 +193,23 @@
     font-size: 18px;
   }
 
+/* Home Promotion 4.0 */
+.promotion_section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--light-grey);
+}
+.promotion_section h2 {
+  font-size: 3.25rem;
+  margin-bottom: 25px;
+}
+.promotion_section p {
+  font-size: 1.125rem;
+}
+.promotion_section ul {
+  padding-left: 15px;
+}
+
 /* Media Query Mobiles */
 
 @media (max-width: 992px) {
