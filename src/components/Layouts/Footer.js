@@ -51,8 +51,8 @@ function Footer() {
                 <p>Drinks</p>
                 <p>Desserts</p>
                 <p>
-                  <Link to="tel:1800022022" className="calling">
-                    1800-022-022
+                  <Link to="tel:18000222022" className="calling">
+                    1800-022-2022
                   </Link>
                 </p>
               </div>

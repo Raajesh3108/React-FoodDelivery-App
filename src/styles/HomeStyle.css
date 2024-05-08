@@ -3,7 +3,7 @@
     position: relative;
     background: url("../assets/hero/hero-1.jpg") no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: inherit;
     padding-top: 170px;
     padding-bottom: 90px;
 }

@@ -13,7 +13,7 @@ function Section7() {
             <p>
             " So stop googling for the “pizza shops near me” and order from your nearest pizza outlet to have a hot box of pizza on your table in the next 30 minutes! "
             </p>
-            <Link to="/" className="btn btn_red px-4 py-2 rounded-0">
+            <Link to="tel:18000222022" className="btn btn_red px-4 py-2 rounded-0">
               Call: 1800-022-2022
             </Link>
           </Col>
