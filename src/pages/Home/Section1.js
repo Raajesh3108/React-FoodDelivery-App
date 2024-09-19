@@ -10,7 +10,7 @@ const Section1 = () => {
                 <Row>
                     <Col lg={7} className="mb-5 mb-lg-0">
                         <div className="position-relative">
-                            <img src={Pizza} className="img-fluid" alt="Hero" />
+                            <img src={Pizza} className="img-fluid hero_image" alt="Hero" />
                             <div className="price_badge">
                                 <div className="badge_text">
                                     <h4 className="h4_xs">Only</h4>
