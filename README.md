@@ -101,3 +101,60 @@ const Contact = ({ contact_section }) => {
 
 export default Contact;
 ```
+
+## 🔥 Tech Stack
+
+### Frontend:
+
+- React for the user interface
+- CSS for styling
+- React Router for navigation between different sections
+
+### Backend:
+
+- Node.js and Express.js
+
+## 🧪 Testing
+
+The app includes unit tests to ensure the core functionality works as expected:
+
+- `App.test.js`: Contains the tests for the core components and pages.
+- `setupTests.js`: Configures the environment for testing.
+
+Example test (from `app.test.js`):
+
+```javascript
+test('renders homepage correctly', () => {
+  render(<Home />);
+  const headingElement = screen.getByText(/Food Delivery/i);
+  expect(headingElement).toBeInTheDocument();
+});
+```
+
+## ✈️ Installation
+
+To get the project running locally:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Raajesh3108/React-FoodDelivery-App.git
+```
+
+2. Navigate into the project directory:
+
+```bash
+cd react-fooddelivery-app
+```
+
+3. Install the necessary dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm start
+```
